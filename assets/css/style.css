@@ -1,0 +1,58 @@
+body {
+  background-image: url('../slike/background-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: white;
+  padding: 20px;
+}
+
+#page-title{
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@font-face {
+  font-family: 'NevaFont';
+  src: url('../fonts/NevaDasović.ttf') format('truetype');
+}
+
+#fullname{
+  font-family: NevaFont;
+  color: pink
+}
+nav ul {
+  list-style: none;
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav ul li {
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #555;
+}
+img {
+  width: 300px;
+  margin: 10px 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
